@@ -52,7 +52,7 @@ export default function IntroSplash({ onStart, beep }) {
         className="relative text-center font-extrabold uppercase leading-none text-transparent bg-clip-text text-[64px] sm:text-[90px] md:text-[120px] lg:text-[150px] drop-shadow-[0_6px_14px_rgba(255,0,0,0.4)] select-none"
         style={{
           WebkitTextStroke: "1px #3a0000",
-          backgroundImage: "linear-gradient(180deg,#ff3b2f 0%,#ffae7a 45%,#370000 100%)",
+          backgroundImage: "linear-gradient(180deg, #000000 0%, #4a0000 35%, #8b0000 50%, #1a0000 100%)",
           backgroundSize: "300% 300%",
           animation: "liquidFlow 6s ease-in-out infinite",
           filter: "url(#liquid)",
